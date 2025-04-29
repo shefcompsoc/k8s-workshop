@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-workshop
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: k8s-workshop
+  template:
+    metadata:
+      labels:
+        app: k8s-workshop
+    spec:
+      containers:
+        - name: whoami
+          image: traefik/whoami
+          args:
+            - --verbose
