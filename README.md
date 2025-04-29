@@ -174,8 +174,13 @@ Accept: */*
 
 Take note of the top line, starting with `Hostname:`. This line indicates which Pod you're currently accessing, and you should be able to see this change if you reload a few times (you may need to clear browser cache). This is the Service automatically load balancing between our replicas, pretty cool right?
 
+## Teaching Resources
+
+If you're a demonstrator for the practical part of the workshop, please see [this guide](DEMONSTRATORS.md) for some information about common problems and recommended solutions.
+
 ## Acknowledgements
 
 Resources used in the making of this workshop:
 - [Kubernetes docs](https://kubernetes.io/docs/home)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [traefik/whoami](https://github.com/traefik/whoami)
