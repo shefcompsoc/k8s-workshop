@@ -1,3 +1,5 @@
+![CompSoc coloured Kubernetes wordmark](images/workshop_wordmark.png)
+
 # CompSoc Kubernetes Workshop
 
 Hello and welcome to the Kubernetes Workshop practical session! Here you'll learn how to create a cluster and deploy Pods to it. This README will be the main guide for students on what to do, but please feel free to ask the demonstrator if you have any questions.
