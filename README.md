@@ -137,7 +137,7 @@ Again, always check what you're applying before you apply it! This time we'll be
 
 As before, this is just a simple command:
 ```shell
-kubectl apply -f kubectl apply -f https://raw.githubusercontent.com/shefcompsoc/k8s-workshop/refs/heads/main/manifests/services/nodeport.yaml
+kubectl apply -f https://raw.githubusercontent.com/shefcompsoc/k8s-workshop/refs/heads/main/manifests/services/nodeport.yaml
 ```
 
 #### Step 3: Check that the Service has been created
